@@ -1,6 +1,6 @@
 # ajv-draft-04
 
-JSON Schema formats for Ajv
+Ajv with JSON Schema draft-04 support
 
 [![Build Status](https://travis-ci.org/ajv-validator/ajv-draft-04.svg?branch=master)](https://travis-ci.org/ajv-validator/ajv-draft-04)
 [![npm](https://img.shields.io/npm/v/ajv-draft-04.svg)](https://www.npmjs.com/package/ajv-draft-04)
