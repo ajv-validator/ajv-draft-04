@@ -1,6 +1,6 @@
 {
   "name": "ajv-draft-04",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Ajv class for JSON Schema draft-04",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,20 +20,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajv-validator/ajv-formats.git"
+    "url": "git+https://github.com/ajv-validator/ajv-draft-04.git"
   },
   "keywords": [
     "Ajv",
     "JSON-Schema",
-    "format",
-    "validation"
+    "validation",
+    "draft-04"
   ],
   "author": "Evgeny Poberezkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajv-validator/ajv-formats/issues"
+    "url": "https://github.com/ajv-validator/ajv-draft-04/issues"
   },
-  "homepage": "https://github.com/ajv-validator/ajv-formats#readme",
+  "homepage": "https://github.com/ajv-validator/ajv-draft-04#readme",
   "dependencies": {
     "ajv": "^8.0.0"
   },
