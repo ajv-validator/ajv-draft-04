@@ -105,5 +105,4 @@ dist
 
 package-lock.json
 
-tests/JSON-Schema-Test-Suite
 tests/_json/*.ts
