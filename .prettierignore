@@ -2,3 +2,4 @@ dist
 coverage
 tests/JSON-Schema-Test-Suite
 tests/_json
+.vscode

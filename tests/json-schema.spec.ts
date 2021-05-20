@@ -1,6 +1,5 @@
 import _Ajv, {SchemaObject} from ".."
 import getAjvInstances from "./ajv_instances"
-// import {withStandalone} from "./ajv_standalone"
 import options from "./ajv_options"
 import {afterError, afterEach} from "./after_test"
 import ajvFormats from "ajv-formats"

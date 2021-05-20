@@ -6,6 +6,5 @@ export function withStandalone(instances: AjvCore[]): (AjvCore | AjvPack)[] {
 }
 
 function makeStandalone(ajv: AjvCore): AjvPack {
-  ajv.opts.code.source = true
   return new AjvPack(ajv)
 }
