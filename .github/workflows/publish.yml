@@ -14,7 +14,8 @@ jobs:
           node-version: 14
           registry-url: https://registry.npmjs.org/
       - run: npm install
-      - run: npm test
+      - run: git submodule update --init
+      - run: npm run test-ci
       - name: Publish beta version to npm
         if: "github.event.release.prerelease"
         run: npm publish --tag beta

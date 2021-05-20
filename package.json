@@ -16,7 +16,8 @@
     "json-tests": "rm -rf tests/_json/*.js && node scripts/jsontests",
     "test-spec": "jest",
     "test-cov": "jest --coverage",
-    "test": "npm run json-tests && npm run prettier:check && npm run build && npm run eslint && npm run test-cov"
+    "test": "npm run json-tests && npm run prettier:check && npm run build && npm run eslint && npm run test-cov",
+    "test-ci": "AJV_FULL_TEST=true npm test"
   },
   "repository": {
     "type": "git",
