@@ -1,6 +1,6 @@
 {
   "name": "ajv-draft-04",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Ajv class for JSON Schema draft-04",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
