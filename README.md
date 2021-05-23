@@ -10,6 +10,12 @@ Ajv with JSON Schema draft-04 support
 
 ## Usage
 
+You need to install both ajv and this package (to allow upgrading ajv without upgrading this package):
+
+```shell
+npm i ajv ajv-draft-04
+```
+
 ```javascript
 // ESM/TypeScript import
 import Ajv from "ajv-draft-04"
@@ -18,6 +24,8 @@ const Ajv = require("ajv-draft-04")
 
 const ajv = new Ajv()
 ```
+
+See [ajv site](https://ajv.js.org) for documentation.
 
 ## Tests
 
