@@ -30,6 +30,12 @@ class Ajv extends AjvCore {
       : draft4MetaSchema
     this.addMetaSchema(metaSchema, META_SCHEMA_ID, false)
     this.refs["http://json-schema.org/schema"] = META_SCHEMA_ID
+
+    // Add a copy of the schema for HTTPS references:
+    const httpsId = META_SCHEMA_ID.replace(/^http:/, "https:")
+    const httpsSchema = JSON.parse(JSON.stringify(metaSchema)) as AnySchemaObject
+    httpsSchema.id = httpsSchema.$schema = httpsId + "#"
+    this.addMetaSchema(httpsSchema, httpsId, false)
   }
 
   defaultMeta(): string | AnySchemaObject | undefined {
